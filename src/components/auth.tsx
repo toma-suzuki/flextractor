@@ -1,5 +1,5 @@
 import scss from '../styles/auth.module.scss'
-import { useContext, useState } from 'react'
+import { useContext } from 'react'
 import { supabase } from '../utils/supabase'
 import { GlobalContext } from '../pages'
 import { FieldValues, useForm } from 'react-hook-form'
@@ -15,10 +15,10 @@ export const Auth = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors }
+    // formState: { errors }
   } = useForm()
 
-  const onSubmit = (data: FieldValues) => {
+  const onSubmit = async (data: FieldValues) => {
     console.log(data)
 
     const loginData: LoginData = {
@@ -26,7 +26,7 @@ export const Auth = () => {
       password: data.password
     }
 
-    handleLogin(loginData)
+    await handleLogin(loginData)
   }
 
   const handleLogin = async (loginData: LoginData) => {
@@ -49,18 +49,12 @@ export const Auth = () => {
       <div className={scss.form_outer}>
         <div className={scss.form_inner}>
           <form onSubmit={handleSubmit(onSubmit)}>
-            <LoginInput
-              register={register}
-              name={'email'}
-              label={'email'}
-            />
+            <LoginInput register={register} name={'email'} label={'email'} />
 
-            <LoginInput
-              register={register}
-              name={'password'}
-              label={'password'}
-            />
-            <button type={'submit'}>login</button>
+            <LoginInput register={register} name={'password'} label={'password'} />
+            <button type={'submit'} disabled={state.loading}>
+              {state.loading ? 'loading...' : 'login'}
+            </button>
           </form>
         </div>
       </div>

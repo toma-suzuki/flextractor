@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10e9a2a6-aaf0-491e-bf89-e4bbdf7e31f9" name="Changes" comment="fix: .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/components/auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/inputs/loginInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/auth.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/loginInput.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/supabase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="10e9a2a6-aaf0-491e-bf89-e4bbdf7e31f9" name="Changes" comment="add: login page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/hello.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +83,7 @@
       <workItem from="1670150459791" duration="4734000" />
       <workItem from="1670169608085" duration="699000" />
       <workItem from="1670203404468" duration="10904000" />
-      <workItem from="1670728436426" duration="21286000" />
+      <workItem from="1670728436426" duration="21494000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670169649138</created>
@@ -120,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670170100817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add: login page">
+      <created>1670774977588</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670774977588</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +136,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add: install sass package.&#10;fix: rewrite import sentence for .scss." />
     <MESSAGE value="fix: .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: .gitignore" />
+    <MESSAGE value="add: login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: login page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
